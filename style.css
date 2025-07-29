@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: red;
+    display:flex;
+        justify-content: space-around;
+}
+.name{
+    display: inline-flex;
+ 
+}
+.guid{
+    display:flex;
+  gap: 20px;
+
+
+}
+.world{
+    width:50%;
+    height: 50%;
+}
+/*.big-dog,.small-dog{
+    width: 10vw;
+    height: 10vh;
+border-radius: 3px;
+}*/
+
