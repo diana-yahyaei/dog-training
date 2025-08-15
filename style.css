@@ -34,20 +34,39 @@ img.world {
 .title h1 {
   font-size: 50px;
   text-indent: 10%;
+  color: rgb(1, 92, 1);
+}
+.h {
+  margin-top: 50px;
 }
 .p {
   white-space: pre;
   margin-left: 100px;
 }
 .but {
-  width: 500px;
-  height: 50px;
   margin-left: 10%;
   align-items: center;
-  background-color: blue;
+
   display: flex;
   gap: 20px;
 }
-.one {
-  background-color: aqua;
+#one,
+.two {
+  border-radius: 15px;
+  border: 1px solid black;
+  width: 150px;
+  height: 40px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 5px;
+  margin-top: 30px;
+}
+#one:hover {
+  background-color: orange;
+  color: white;
+  border: 1px solid orange;
+}
+.first {
+  height: 65vh;
+  border-radius: 0 0 15% 0;
 }
