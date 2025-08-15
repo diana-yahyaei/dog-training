@@ -36,15 +36,19 @@ img.world {
   text-indent: 10%;
   color: rgb(1, 92, 1);
 }
+
 .h {
   margin-top: 50px;
+}
+.hs {
+  margin-left: 100px;
 }
 .p {
   white-space: pre;
   margin-left: 100px;
 }
 .but {
-  margin-left: 10%;
+  margin-left: 150px;
   align-items: center;
 
   display: flex;
@@ -58,7 +62,7 @@ img.world {
   height: 40px;
   justify-content: center;
   text-align: center;
-  padding-top: 5px;
+  padding-top: 10px;
   margin-top: 30px;
 }
 
@@ -68,13 +72,31 @@ img.world {
   border: 1px solid orange;
 }
 .first {
-  height: 65vh;
+  height: 70vh;
   border-radius: 0 0 15% 0;
-  background-color: beige;
+  background-color: white;
   z-index: 2;
   position: relative;
-  bottom: 50px;
+  bottom: -10px;
+  display: flex;
 }
+
+.dog {
+  width: 500px;
+  height: 400px;
+  margin-left: 150px;
+  border-radius: 45%;
+  margin-top: 30px;
+  box-shadow: 3px 3px 3px 3px beige;
+}
+/* .foot-one {
+  width: 100px;
+  height: 100px;
+  transform: rotate(20deg);
+  margin-top: 100px;
+  margin-left: -50px;
+} */
+
 .second {
   height: 60vh;
   width: 100%;
