@@ -80,7 +80,7 @@ img.world {
   height: 70vh;
   border-radius: 0 0 25% 0;
   background-color: white;
-  z-index: 2;
+  z-index: 3;
   position: relative;
   bottom: -10px;
   display: flex;
@@ -103,28 +103,28 @@ img.world {
 } */
 
 .second {
-  height: 700px;
+  height: 850px;
   width: 100%;
   background-color: rgb(1, 92, 1);
-  /* z-index: 1; */
-  /* position: absolute;
-  bottom: -84px; */
+  z-index: 2;
+
   display: grid;
   border-radius: 0 0 15% 0;
   justify-items: center;
   padding-top: 200px;
   text-align: center;
-  line-height: 20px;
   color: rgb(255, 255, 255);
   margin-top: -100px;
+  position: relative;
 }
-/* .second h2 {
-  margin-bottom: 50px;
-} */
+.second h2 {
+  margin-top: -50px;
+}
 .ps {
   width: 700px;
   overflow: hidden;
-  margin: -50px;
+  margin: -200px;
+  font-size: 20px;
 }
 .second-pic {
   width: 100px;
@@ -135,7 +135,7 @@ img.world {
   justify-content: center;
   align-items: center;
   gap: 50px;
-  margin-top: -100px;
+  margin-top: -500px;
 }
 #box-one,
 .box-second,
@@ -185,7 +185,67 @@ img.world {
   left: -25px;
 }
 #box-one {
-  z-index: 1;
   position: relative;
   background-color: #76ff7a;
+}
+.third {
+  height: 800px;
+  background-color: red;
+  display: flex;
+  z-index: 1;
+  /* border-radius: 0 0 15% 0; */
+  justify-items: center;
+
+  /* text-align: center; */
+
+  margin-top: -380px;
+}
+.part-one {
+  width: 50%;
+  background-color: beige;
+  padding-top: 450px;
+  padding-left: 100px;
+  color: black;
+}
+.part-one p {
+  width: 400px;
+  overflow: hidden;
+  margin-top: 15px;
+}
+.part-one li {
+  margin-top: 30px;
+}
+li::marker {
+  color: green;
+}
+li:first-child {
+  color: green;
+  font-size: 20px;
+}
+.part-two {
+  width: 50%;
+  background-color: #00b226;
+  padding-top: 450px;
+  padding-left: 50px;
+  color: white;
+}
+.part-two p {
+  margin-top: 15px;
+  width: 500px;
+  line-height: 25px;
+}
+.part-two button {
+  margin-top: 50px;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  color: white;
+  background-color: green;
+}
+.part-two button:focus {
+  color: black;
+  background-color: rgb(1, 207, 1);
 }
