@@ -92,7 +92,7 @@ img.world {
   margin-left: 150px;
   border-radius: 45%;
   margin-top: 30px;
-  box-shadow: 3px 3px 3px 3px beige;
+  box-shadow: 3px 3px beige;
 }
 /* .foot-one {
   width: 100px;
@@ -213,13 +213,18 @@ img.world {
   margin-top: 15px;
 }
 .part-one li {
-  margin-top: 30px;
+  line-height: 40px;
 }
 li::marker {
-  color: green;
+  content: "🍀";
+  /* width: 30px;
+
+  height: 30px;
+  content: url(https://img.icons8.com/?size=100&id=9199&format=png&color=1A1A1A); */
 }
 li:first-child {
   color: green;
+  margin-top: -150px;
   font-size: 20px;
 }
 .part-two {
@@ -233,6 +238,14 @@ li:first-child {
   margin-top: 15px;
   width: 500px;
   line-height: 25px;
+}
+#doggy {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 300px;
+  box-shadow: 5px 5px #ccccb4;
 }
 .part-two button {
   margin-top: 50px;
