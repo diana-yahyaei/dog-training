@@ -204,7 +204,7 @@ img.world {
   width: 50%;
   height: 960px;
   z-index: 1;
-  background-color: rgb(235, 91, 7);
+  background-color: beige;
   padding-top: 450px;
   padding-left: 100px;
   color: black;
@@ -269,20 +269,26 @@ li:first-child {
   height: 700px;
   width: 100%;
   z-index: 2;
-  display: grid;
-  grid-template-columns: repeat(6, 150px);
-  gap: 50px;
+  display: flex;
+  color: white;
+  gap: 140px;
   padding-top: 100px;
   border-top-left-radius: 20%;
-  background-color: rgb(255, 166, 0);
-
+  background-color: green;
+  line-height: 50px;
   position: absolute;
   bottom: -1750px;
 }
-
+#plus {
+  margin-left: 100px;
+  width: 200px;
+  line-height: 20px;
+}
 .four img {
   background-color: aqua;
   width: 40px;
+  margin-left: 40px;
   height: 40px;
   border-radius: 50%;
+  margin-bottom: 30px;
 }
