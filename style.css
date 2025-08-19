@@ -166,9 +166,7 @@ header p:hover {
   25% {
     transform: rotate(-45deg);
   }
-  50% {
-    transform: rotate(0deg);
-  }
+
   75% {
     transform: rotate(45deg);
   }
@@ -182,7 +180,7 @@ header p:hover {
   justify-content: end;
   margin-left: 20px;
   margin-top: 30px;
-  animation: wavy-paw 2s ease-in-out 3;
+  animation: wavy-paw 3s ease-in-out infinite;
   animation-fill-mode: runnig;
   /* animation-name: wavy-paw;
   animation-timing-function: ease-in-out;
@@ -276,11 +274,11 @@ header p:hover {
 }
 .two-li::marker {
   content: "🍀";
-  animation: bold-li 7s infinite;
+  animation: bold-li 5s infinite;
 }
 .three-li::marker {
   content: "🍀";
-  animation: bold-li 9s infinite;
+  animation: bold-li 5s infinite;
 }
 .part-two {
   width: 50%;
@@ -358,7 +356,7 @@ header p:hover {
   height: 40px;
   border-radius: 50%;
   margin-bottom: 30px;
-  animation: bold-plus 2s ease-out 3;
+  animation: bold-plus 2s ease-out 5;
 }
 footer {
   height: 80px;
